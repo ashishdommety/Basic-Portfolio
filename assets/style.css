@@ -127,3 +127,85 @@ h3{
   color:#5d7054;
   font-weight: 500;
 }
+.work{
+  width:150px;
+  height:150px;
+  float:left;
+  margin-top: 10px;
+}
+#calc{
+margin-left: 100px;
+margin-top: 20px;
+}
+#calc:hover{
+  opacity: 0.5;
+}
+#calc h3{
+  font-size: 30px;
+  background-color: #738769;
+  height:30px;
+  width:130px;
+  padding: 20px;
+  color:white;
+  margin-left:-10px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#weather{
+margin-left: 400px;
+margin-bottom: 100px;
+position: relative;
+top: -70px;
+}
+#weather:hover{
+  opacity: 0.5;
+}
+#weather h3{
+  font-size: 30px;
+  background-color: #738769;
+  height:30px;
+  width:180px;
+  padding: 20px;
+  color:white;
+  margin-left:-40px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#wiki{
+clear: both;
+margin-left: 100px;
+margin-top: 200px;
+}
+#wiki:hover{
+  opacity: 0.5;
+}
+#wiki h3{
+  font-size: 30px;
+  background-color: #738769;
+  height:30px;
+  width:225px;
+  padding: 20px;
+  color:white;
+  margin-left:-50px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#clock{
+margin-left: 400px;
+position: relative;
+top: -70px;
+}
+#clock:hover{
+  opacity: 0.5;
+}
+#clock h3{
+  font-size: 30px;
+  background-color: #738769;
+  height:30px;
+  width:225px;
+  padding: 20px;
+  color:white;
+  margin-left:-50px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+a{
+  text-decoration: none;
+}
