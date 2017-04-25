@@ -2,42 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Contact</title>
+    <title>About Me</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
-    <header>
+    <header id="head">
       <h1>Ashish Dommety</h1>
       <ul>
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <a href="index.html"><li>About</li></a>
+        <a href="portfolio.html"><li>Portfolio</li></a>
+        <a href="contact.html"><li>Contact</li></a>
       </ul>
     </header>
-    <div id="contact">
-      <h2>Contact</h2>
+    <br><br><br><br>
       <hr>
-      <p><strong>Name:</strong</p>
-        <br>
-        <br>
-      <input type="text" placeholder="Enter name here" name="" value="">
-      <p><strong>Email:</strong></p>
-      <input type="text" placeholder="Enter e-mail here" name="" value="">
-      <p><strong>Message:</strong></p>
-      <textarea name="name" rows="8" cols="80"></textarea>
-      <input type="submit" name="Submit" value="">
-
+    <div id="page">
+      <div id="contact">
+        <h2>Contact</h2>
+        <hr>
+        <p><strong>Name:</strong</p>
+          <br>
+        <input type="text" placeholder="Enter name here" name="" value="">
+        <p><strong>Email:</strong></p>
+        <input type="text" placeholder="Enter e-mail here" name="" value="">
+        <p><strong>Message:</strong></p>
+        <textarea name="name" rows="8" cols="80"></textarea>
+        <input type="submit" name="Submit" value="">
+      </div>
+      <div id="connect">
+        <h3>Connect with me</h3>
+        <hr>
+        <a href="https://github.com/ashishdommety" target="_blank"><img class ="icons" src="assets/images/github.png" alt="github"></a>
+        <a href="http://codepen.io/ashishdommety/" target="_blank"><img class ="icons" src="assets/images/codepen.png" alt="codepen"></a>
+        <a href="https://www.linkedin.com/in/ashish-dommety-393054b5" target="_blank"><img class ="icons" src="assets/images/linkedin.png" alt="linkedin"></a>
+        <a href="https://www.freecodecamp.com/ashishdommety" target="_blank"><img class ="icons" src="assets/images/fcc.jpg" alt="freecodecamp"></a>
+      </div>
     </div>
-    <div id="connect">
-      <h3>Connect with me</h3>
-      <hr>
-      <img src="assets/images/github.png" alt="github">
-      <img src="assets/images/codepen.png" alt="codepen">
-      <img src="assets/images/fcc.jpg" alt="freecodecamp">
-      <img src="assets/images/linkedin.png" alt="linkedin">
-
+    <div id="foot">
+        <hr>
+      <footer>
+        <p>&copy; Copyright 2017 Ashish Dommety</p>
+      </footer>
     </div>
-    <footer>
-        <p>Copyright 2017 Ashish Dommety</p>
-    </footer>
   </body>
 </html>

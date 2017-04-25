@@ -3,21 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>About Me</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
-    <header>
+    <header id="head">
       <h1>Ashish Dommety</h1>
       <ul>
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <a href="index.html"><li>About</li></a>
+        <a href="portfolio.html"><li>Portfolio</li></a>
+        <a href="contact.html"><li>Contact</li></a>
       </ul>
     </header>
-    <div id="about">
-      <h2>About me</h2>
+    <br><br><br><br>
       <hr>
-      <img src="assets/images/profile-pic.jpg" alt="Profile pic of Ashish">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <div id="page">
+      <div id="about">
+        <h2>About me</h2>
+        <hr>
+        <img id="profile" src="assets/images/profile-pic.jpg" alt="Profile pic of Ashish">
+        <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Aliquam tincidunt odio ex, sed porttitor ipsum laoreet quis. Morb
         i sagittis eget nulla at mattis. Sed massa dolor, efficitur tempus malesuada a
         t, congue id purus. Etiam egestas egestas tincidunt. Etiam feugiat felis nibh,
@@ -34,18 +39,21 @@
         Orci varius natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Maecenas varius nibh velit, eget faucibus nunc blandit ac.
         Integer placerat aliquet arcu sit amet pharetra.</p>
+      </div>
+      <div id="connect">
+        <h3>Connect with me</h3>
+        <hr>
+        <a href="https://github.com/ashishdommety" target="_blank"><img class ="icons" src="assets/images/github.png" alt="github"></a>
+        <a href="http://codepen.io/ashishdommety/" target="_blank"><img class ="icons" src="assets/images/codepen.png" alt="codepen"></a>
+        <a href="https://www.linkedin.com/in/ashish-dommety-393054b5" target="_blank"><img class ="icons" src="assets/images/linkedin.png" alt="linkedin"></a>
+        <a href="https://www.freecodecamp.com/ashishdommety" target="_blank"><img class ="icons" src="assets/images/fcc.jpg" alt="freecodecamp"></a>
+      </div>
     </div>
-    <div id="connect">
-      <h3>Connect with me</h3>
-      <hr>
-      <img src="assets/images/github.png" alt="github">
-      <img src="assets/images/codepen.png" alt="codepen">
-      <img src="assets/images/fcc.jpg" alt="freecodecamp">
-      <img src="assets/images/linkedin.png" alt="linkedin">
-
+    <div id="foot">
+        <hr>
+      <footer>
+        <p>&copy; Copyright 2017 Ashish Dommety</p>
+      </footer>
     </div>
-    <footer>
-        <p>Copyright 2017 Ashish Dommety</p>
-    </footer>
   </body>
 </html>
